@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+            
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .portfolio-item {
+    display: flex; /* Mengubah tata letak ke flexbox */
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%; /* Menghindari gambar keluar dari kontainer */
+    height: auto; /* Mempertahankan aspek rasio gambar */
+}
+
+.portfolio-item:nth-child(even) {
+    flex-direction: row-reverse; /* Memutar urutan item untuk setiap item genap */
+}
+
+.portfolio-item h2,
+.portfolio-item p {
+    flex: 1; /* Membuat teks berukuran fleksibel */
+    padding: 0 20px; /* Memberikan sedikit ruang di sekitar teks */
+}
+
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <p>Selamat datang di portofolio saya. Lihat beberapa karya terbaik saya di bawah ini.</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+
+    </nav>
+    <div class="main-content">
+        <div class="portfolio-item">
+            <h2>Karya Pertama</h2>
+            <img src="OIP.jpeg" alt="Karya Pertama">
+            <p>Karya ini adalah lukisan abstrak yang terinspirasi oleh alam dan emosi manusia. Saya menggunakan teknik berlapis untuk menciptakan tekstur yang menarik dan perpaduan warna yang dinamis. Setiap sentuhan kuas mengungkapkan perasaan dan pemikiran yang terpendam dalam diri saya.</p>
+        </div>
+
+        <!-- Tambahkan lebih banyak karya di sini -->
+    </div>
+    <footer>
+        <p>Hak Cipta &copy; 2024 Portofolio GIOVANI</p>
+    </footer>
+</body>
+</html>
